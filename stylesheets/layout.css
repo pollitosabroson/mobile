@@ -24,10 +24,56 @@
 ================================================== */
 
 	/* Smaller than standard 960 (devices and browsers) */
-	@media only screen and (max-width: 959px) {}
+	@media only screen and (min-width: 960px) {
+		footer{
+			position: relative !important;
+		}
+		.imagenes{
+			position: relative;
+			top: 25px;
+			height: 340px;
+			text-align: center;
+			margin-left: 7px;
+		}
+		.masimg{
+			height: 340px;
+			text-align: center;
+			margin-left: 6px;
+		}
+		img{
+			width: 300px;
+			height: 300px;
+		}
+		.container .three.columns {
+			width: 339px;
+		}
+		.container{
+			width: 100% !important;
+		}
+		.container .sixteen.columns {
+			width: 100% !important;
+		}
+	}
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
-	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		.imagenes{
+			position: relative;
+			top: 25px;
+			height: 320px;
+			text-align: center;
+		}
+		.masimg{
+			text-align: center;
+		}
+		img{
+			width: 240px;
+			height: 240px;
+		}
+		.container .three.columns {
+			width: 250px;
+		}	
+	}
 
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {}
