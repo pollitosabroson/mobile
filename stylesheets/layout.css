@@ -33,10 +33,50 @@
 	@media only screen and (max-width: 767px) {}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.imagenes{
+			position: relative;
+			top: 25px;
+			height: 170px;
+			text-align: center;
+		}
+		.masimg{
+			height: 170px;
+			text-align: center;
+		}
+		footer{
+			position: relative!important;
+		}
+		img{
+			width: 180px;
+			height: 180px;
+		}
+		.container .three.columns {
+			width: 185px;
+		}	
+	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-	@media only screen and (max-width: 479px) {}
+	@media only screen and (max-width: 479px) {
+		.imagenes{
+			height: 150px;
+			position: relative;
+			text-align: center;
+			top: 25px;
+			margin-left: 7px;
+		}
+		.masimg{
+			margin-left: 7px;
+			text-align: center;
+		}
+		img{
+			width:90px;
+			height:90px;
+		}
+		.container .three.columns {
+			width: 100px;
+		}
+	}
 
 
 /* #Font-Face
